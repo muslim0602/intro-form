@@ -19,7 +19,7 @@ body{
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #e7e7e7;
   color: #222;
 }
 
@@ -30,7 +30,7 @@ img{
 
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1252px;
   padding-left: 50px;
   padding-right: 50px;
   margin-right: auto;
@@ -40,3 +40,98 @@ img{
 .main-content{
   flex-grow: 1;
 }
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+.site-main-container {
+
+
+}
+
+
+/* SITE-INFO */
+
+.site-info {
+  width: 570px;
+  height: 640px;
+  padding-top: 80px;
+  border-radius: 20px;
+}
+
+
+/* SITE-INFO-TOP */
+
+.site-info-main-content {
+  padding-top: 60px;
+  padding-bottom: 203px;
+  padding-left: 60px;
+  padding-right: 121px;
+  background-image: url("../img/info-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+
+}
+.site-info-span {
+  font-family: "Inter","Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 41px;
+}
+.site-info-heading {
+  font-family: "Inter","Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+}
+.site-info-text {
+  height: 52px;
+  left: 14.17%;
+  right: 61.74%;
+  top: calc(50% - 52px/2 + 11px);
+  font-family: "Inter","Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.site-info-footer {
+  padding-top: 29px;
+  padding-bottom: 28px;
+  padding-left: 144px;
+  padding-right: 145px;
+  background-color: #4dc490;
+  border-radius: 0 0 20px 20px;
+  color: #fff;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .site-info-main-content{
+   background-image: url("../img/info-img@2x.jpg");
+  }
+
+}
+
+/* fonts : inter 500,700,400 */
