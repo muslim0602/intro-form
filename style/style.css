@@ -45,19 +45,21 @@ img{
 .main-content {
   flex-grow: 1;
 }
-.site-main-container {
 
+
+.intro{
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
 
 }
-
-
 /* SITE-INFO */
 
 .site-info {
   width: 570px;
   height: 640px;
-  padding-top: 80px;
   border-radius: 20px;
+  margin-right: 12px;
 }
 
 
@@ -80,6 +82,7 @@ img{
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  line-height: 17px;
   text-align: center;
   color: #FFFFFF;
   display: inline-block;
@@ -109,6 +112,9 @@ img{
   color: #fff;
 }
 .site-info-footer {
+
+  width: 570px;
+  height: 80px;
   padding-top: 29px;
   padding-bottom: 28px;
   padding-left: 144px;
@@ -119,6 +125,81 @@ img{
 }
 
 
+/* FORM */
+
+.site-form-info{
+  width: 570px;
+  height: 640px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+  padding-top: 55px;
+  padding-left: 60px;
+}
+.site-form-heading {
+  font-family: "Inter","Arial",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 79px;
+  padding: 0;
+}
+.site-form-input {
+  width: 450px;
+  border: none;
+  font-family: "Inter","Arial",sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 35px;
+  color: #555555;
+}
+.btn{
+  width: 450px;
+  height: 59px;
+  background-color: #655af2;
+  padding: 20px 149px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 28px;
+}
+.btn:active{
+  background-color: #3a2bf8;
+
+}
+.btn-text{
+  display: inline-block;
+  width: 155px;
+  height: 19px;
+  font-family: "Inter",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 19px;
+  color: #fff;
+}
+
+.form-bottom{
+    font-family: "Inter","Arial",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+    padding-left: 51px;
+    color: #555;
+  }
+  .form-bottom-link{
+    color: #f03535;
+  }
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
