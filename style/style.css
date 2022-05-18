@@ -124,6 +124,15 @@ img{
   color: #fff;
 }
 
+.site-info-footer-bold{
+  font-family: "Inter","Arial" , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  color: #fff;
+
+}
 
 /* FORM */
 
@@ -211,7 +220,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
   .site-info-main-content{
-   background-image: url("../img/info-img@2x.jpg");
+    background-image: url("../img/info-img@2x.jpg");
   }
 
 }
