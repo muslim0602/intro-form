@@ -15,6 +15,8 @@ body{
   flex-direction: column;
   height: 100%;
   padding: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 0;
   font-family: "Inter","Arial" , sans-serif;
   font-size: 16px;
@@ -47,15 +49,13 @@ img{
 .intro{
   display: flex;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+
 
 }
 /* SITE-INFO */
 
 .site-info {
   width: 570px;
-  height: 640px;
   border-radius: 20px;
   margin-right: 12px;
 }
@@ -64,6 +64,8 @@ img{
 /* SITE-INFO-TOP */
 
 .site-info-main-content {
+
+
   padding-top: 60px;
   padding-bottom: 203px;
   padding-left: 60px;
@@ -85,6 +87,7 @@ img{
   color: #FFFFFF;
   display: inline-block;
   padding: 5px 15px;
+  margin-bottom: 60px;
   border: 1px solid #fff;
   background-color: transparent;
   border-radius: 41px;
@@ -94,18 +97,16 @@ img{
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
+  margin: 0;
+  margin-bottom: 25px;
   line-height: 46px;
   color: #fff;
 }
 .site-info-text {
-  height: 52px;
-  left: 14.17%;
-  right: 61.74%;
-  top: calc(50% - 52px/2 + 11px);
-  font-family: "Inter","Arial" , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
   line-height: 26px;
   color: #fff;
 }
@@ -156,25 +157,34 @@ img{
   padding: 0;
 }
 .site-form-input {
+  display: block;
   width: 450px;
   border: none;
   font-weight: 400;
   border-bottom: 1px solid #000;
-  padding-bottom: 11px;
+  padding: 7px 0px;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 35px;
   color: #555555;
 }
+
+.site-form-input:focus{
+  outline: 0;
+}
+
+
 .btn{
   display: inline-block;
   width: 450px;
   height: 59px;
+  font-weight: 600;
   background-color: #655af2;
-  padding: 20px 149px;
+  padding: 20px auto;
   border-radius: 10px;
   border: none;
   margin-top: 28px;
+  color: #fff;
 }
 .btn:active{
   background-color: #3a2bf8;
