@@ -1,14 +1,52 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/") format("woff2"),
+    url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 html{
   height: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
- *,
- *::before,
- *::after{
+*,
+*::before,
+*::after{
   box-sizing: inherit;
-  }
+}
 
 body{
   display: flex;
@@ -203,20 +241,20 @@ img{
 }
 
 .form-bottom{
-    width: 450px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    padding: 0;
-    margin: 0;
-    line-height: 15px;
-    margin-top: 8px;
-    color: #555;
-  }
-  .form-bottom-link{
-    color: #f03535;
-  }
+  width: 450px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  line-height: 15px;
+  margin-top: 8px;
+  color: #555;
+}
+.form-bottom-link{
+  color: #f03535;
+}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
